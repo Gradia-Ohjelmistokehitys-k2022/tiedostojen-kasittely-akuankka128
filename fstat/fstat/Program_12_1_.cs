@@ -5,10 +5,10 @@
         static Dictionary<string, string> ParseArgs(string[] args)
         {
             Dictionary<string, string> result = new();
-            
-            for(int i = 0, last = 0; i < args.Length; i++)
+
+            for (int i = 0, last = 0; i < args.Length; i++)
             {
-                if(args[i].StartsWith("--"))
+                if (args[i].StartsWith("--"))
                 {
                     last = i;
                     result[args[i]] = args[++i];
@@ -26,8 +26,8 @@
         {
             Dictionary<string, string> parsed = ParseArgs(args);
             parsed.TryGetValue("--file", out string? filename);
-            
-            if(filename == null)
+
+            if (filename == null)
             {
                 Console.WriteLine("No `--file` found. Check your syntax.");
                 Environment.Exit(1);

@@ -1,5 +1,4 @@
-﻿using System.Security.Principal;
-using System.Text;
+﻿using System.Text;
 
 namespace fstat
 {
@@ -32,7 +31,7 @@ namespace fstat
 
                 @string.Append(fsent);
                 if (isDir) @string.Append('\\');
-                if(isFile)
+                if (isFile)
                 {
                     string ext = Path.GetExtension(path);
                     if(ext.Length != 0) ext = ext.Substring(1);

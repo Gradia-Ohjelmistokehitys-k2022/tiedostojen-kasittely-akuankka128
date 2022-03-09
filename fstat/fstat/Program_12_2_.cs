@@ -1,9 +1,4 @@
 ﻿using FStat;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace fstat
 {
@@ -14,7 +9,11 @@ namespace fstat
             // I'm sure this wasn't what you meant by
             // "Jatka tehtävän 12.1 pääohjelmaa," but
             // I'm doing it anyway
-            Program_12_1_.Main(new string[] { "--file", "placeholder" });
+            Program_12_1_.Main(new string[]
+            {
+                "--file",
+                "placeholder"
+            });
 
             // QOTD: What's the worst way you've seen
             // someone write data to a file?
@@ -26,6 +25,7 @@ namespace fstat
                 0x6F, 0x72, 0x6C, 0x64,
                 0x21, 0x0A
             });
+
             x.Write(data);
         }
     }

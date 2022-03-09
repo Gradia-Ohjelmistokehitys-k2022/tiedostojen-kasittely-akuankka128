@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace fstat
+﻿namespace fstat
 {
     static class Program_12_3_
     {
@@ -13,14 +7,14 @@ namespace fstat
             int strlen = line.Length;
             int conlen = Console.WindowWidth;
 
-            if(strlen > conlen - 4)
+            if (strlen > conlen - 4)
             {
-                line = line.Substring(0, conlen - 7) + "...";
+                line = string.Concat(line.AsSpan(0, conlen - 7), "...");
                 strlen = line.Length;
             }
 
             int len = Math.Min(conlen, strlen);
-            string sep = new string('-', len + 4);
+            string sep = new('-', len + 4);
 
             Console.WriteLine(sep);
             Console.WriteLine("| Line " + title?.ToString()?.PadRight(len - 5) + " |");
@@ -41,22 +35,20 @@ namespace fstat
 
         public static void Main()
         {
-            FileStream x;
+            if (!File.Exists("text1.txt"))
+                return;
 
-            if (File.Exists("text1.txt"))
+            FileStream x = File.OpenRead("text1.txt");
+            StreamReader reader = new(x);
+
+            string? line;
+            // int loops = 0;
+            while ((line = reader.ReadLine()) != null)
             {
-                x = File.OpenRead("text1.txt");
-                StreamReader reader = new(x);
-
-                string? line;
-                //int loops = 0;
-                while((line = reader.ReadLine()) != null)
-                {
-                    // Example usage:
-                    // PrintTable(loops++, line);
-                    // PrintList(line);
-                    // PrintString(line);
-                }
+                // Example usage:
+                // PrintTable(loops++, line);
+                // PrintList(line);
+                // PrintString(line);
             }
         }
     }
