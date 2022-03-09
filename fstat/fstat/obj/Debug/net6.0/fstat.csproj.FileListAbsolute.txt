@@ -1,0 +1,15 @@
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.csproj.AssemblyReference.cache
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.AssemblyInfoInputs.cache
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.AssemblyInfo.cs
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.csproj.CoreCompileInputs.cache
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\bin\Debug\net6.0\fstat.exe
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\bin\Debug\net6.0\fstat.deps.json
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\bin\Debug\net6.0\fstat.runtimeconfig.json
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\bin\Debug\net6.0\fstat.dll
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\bin\Debug\net6.0\ref\fstat.dll
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\bin\Debug\net6.0\fstat.pdb
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.dll
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\ref\fstat.dll
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.pdb
+C:\Users\gr265714\Desktop\supercategory\Coding\tiedostojen-kasittely-akuankka128\fstat\fstat\obj\Debug\net6.0\fstat.genruntimeconfig.cache
