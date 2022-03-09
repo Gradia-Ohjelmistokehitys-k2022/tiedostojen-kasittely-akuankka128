@@ -4,6 +4,7 @@
     {
         public static void PrintTable<T>(T title, string line)
         {
+#region Prevent overflow
             int strlen = line.Length;
             int conlen = Console.WindowWidth;
 
@@ -14,6 +15,8 @@
             }
 
             int len = Math.Min(conlen, strlen);
+#endregion
+
             string sep = new('-', len + 4);
 
             Console.WriteLine(sep);

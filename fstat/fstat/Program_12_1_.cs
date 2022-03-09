@@ -4,6 +4,7 @@
     {
         static Dictionary<string, string> ParseArgs(string[] args)
         {
+            // Store parsed arguments in key-value pairs
             Dictionary<string, string> result = new();
 
             for (int i = 0, last = 0; i < args.Length; i++)
@@ -15,6 +16,8 @@
                 }
                 else
                 {
+                    // If we have multiple/separated
+                    // values per a single key
                     result[args[last]] += ' ' + args[i];
                 }
             }
